@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="div.container1">
+            <h1 style="color: blue;margin-left: 40%; text-align:center" class="heading">Cash Register Manager</h1>
+            <p style="margin-left: 10%" class="description"><strong>The bill amount and cash given by the customer and know minimum number of notes to return.</strong> </p>
+        </div>
+        
+        <p style="margin-left: 10%" class="description"><strong>The bill amount and cash given by the customer and know minimum number of notes to return.</strong> </p>
+        <label style="margin-left: 10%" for="bill-amount">Bill Amount</label><br>
+        <input style="margin-left: 10%" id="bill-amount" type="text"><br>
+        
+        <label style="margin-left: 10%" for="cash-given">Cash Given</label><br>
+        <input style="margin-left: 10%" id="cash-given" type="text"><br>
+        <br><br>
+        <div style="padding-left: 20%">
+            <button  class="button" id="check-button">Check</button>
+        </div>
+        
+        <p style="margin-left: 10%" id="error-message"></p>
+        <table style="margin-left: 10%" class="change-table table"><br>
+            <caption><strong> Return Change</strong> </caption><br>
+            <tr>
+                <th class="th">No of Notes</th>
+                <td class="no-of-notes td"></td>
+                <td class="no-of-notes td"></td>
+                <td class="no-of-notes td"></td>
+                <td class="no-of-notes td"></td>
+                <td class="no-of-notes td"></td>
+                <td class="no-of-notes td"></td>
+                <td class="no-of-notes td"></td>
+            </tr>
+            <tr>
+                <th class="th">Notes</th>
+                <td class="td">2000</td>
+                <td class="td">500</td>
+                <td class="td">100</td>
+                <td class="td">20</td>
+                <td class="td">10</td>
+                <td class="td">5</td>
+                <td class="td">1</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+    <script src="./index.js"></script>
+</html>
